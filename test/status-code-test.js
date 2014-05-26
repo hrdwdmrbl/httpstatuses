@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    httpStatus = require('../')
+    httpStatus = require('../').friendlyNameToStatusCode
 
 describe('HTTP Status', function () {
   describe('Informational', function() {
