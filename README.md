@@ -10,7 +10,7 @@ The standard `http` module provides a [`STATUS_CODES` object](http://nodejs.org/
 
 ## Example
 
-    httpStatuses = require('httpstatuses')
+    httpStatuses = require('httpstatuses').friendlyNameToStatusCode
     console.log(httpStatuses.not_found) # 404
 
 ## License
